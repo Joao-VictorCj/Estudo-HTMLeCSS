@@ -1,0 +1,40 @@
+@charset "UFT-8";
+
+ :root{
+--cor_nav: rgb(141, 48, 204);
+--cor_fundo: rgb(37, 1, 71);
+
+ }
+
+ body{
+    background-color: var(--cor_nav) ;
+}
+
+main{
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+article > p{
+    color: aliceblue;
+}
+article > h2{
+    color: brown;
+}
+
+ #logogg{
+    width: 100%;
+    min-width: 30px;
+    max-width: 300px;
+   
+ }
+
+ /* colocar bolinha da lista para dentro do conteudo "list-style-position: inside;" */
+ /* usar a emoj pedia para personalizar as listas */
+ /* list-style-type: '/'; use o codigo do emojipedia na frende da /  */
+
+ 
